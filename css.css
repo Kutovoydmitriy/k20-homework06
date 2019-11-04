@@ -1,11 +1,17 @@
 
 body {
-	font-family: arial;
-    font-weight:bold ;
+	font-family: arial, sans-serif;
     color: #252525;
     background-color: #D1E4FF;
+    margin-right: 0;
 
 }
+
+ol, ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 span {
 	background-color:#F0E6D6;
 }
@@ -15,6 +21,9 @@ span {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
 
@@ -79,3 +88,4 @@ margin-right:50px;
 	
     border: 1px solid #B89BB8;
 }
+
