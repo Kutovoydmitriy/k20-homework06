@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    src: url('subset-Roboto-Bold.woff') format('woff'),
+        url('subset-Roboto-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    src: url('subset-Roboto-Regular.woff') format('woff'),
+        url('subset-Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: italic;
+    src: url('subset-Roboto-BoldItalic.woff') format('woff'),
+        url('subset-Roboto-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    src: url('subset-Roboto-Italic.woff') format('woff2'),
+        url('subset-Roboto-Italic.woff2') format('woff');
+}
+
+html {
+    font-family: Roboto, Arial, sans-serif;
+}
